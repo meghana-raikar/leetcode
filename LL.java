@@ -8,6 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+import java.util.*;
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
         if(head == null) {
